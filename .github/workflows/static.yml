@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Build and Deploy
+name: Deploy static content to Pages
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
@@ -7,12 +7,25 @@ env:
   USE_GITHUB_DATA: "true"
   MEDIUM_USERNAME: "" # Change this to your medium username
 on:
-  workflow_dispatch:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - master
-  schedule:
-    - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
