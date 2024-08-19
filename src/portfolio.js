@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Soy un aprendiz de programación (Python, JavaScript, Electron), aplicaciones que usan API'S, configurador de servidores/eventos de mc"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,15 +50,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "¿Que hago?",
-  subTitle: "Me encanta todo lo que tenga que ver con la modificación del propio Minecraft",
+  subTitle:
+    "Me encanta todo lo que tenga que ver con la modificación del propio Minecraft",
   skills: [
-    emoji(
-      "⚡ Launchers para eventos/series de minecraft"
-    ),
+    emoji("⚡ Launchers para eventos/series de minecraft"),
     emoji("⚡ Modelaje 3D y texture packs para MC"),
-    emoji(
-      "⚡ Configuración con Conditional Events"
-    )
+    emoji("⚡ Configuración con Conditional Events")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -266,7 +262,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
