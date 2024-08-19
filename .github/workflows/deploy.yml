@@ -21,6 +21,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages # Rama donde se despliega
-          folder: build    # Carpeta de construcción
-          token: ${{ secrets.token }}  # Autenticación usando el token predeterminado
+          branch: gh-pages       # Rama de despliegue
+          folder: build          # Carpeta que contiene el build
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}  # Usar el secret creado
