@@ -23,4 +23,4 @@ jobs:
         with:
           branch: gh-pages # Rama donde se despliega
           folder: build    # Carpeta de construcción
-          token: ${{ secrets.GITHUB_TOKEN }}  # Autenticación usando el token predeterminado
+          token: ${{ secrets.token }}  # Autenticación usando el token predeterminado
