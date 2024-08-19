@@ -337,12 +337,52 @@ const resumeSection = {
   // Please Provide with Your Podcast embeded Link
   display: false // Set false to hide this section, defaults to true
 };
+// portfolio.js
+const plansData = {
+  viewPlans: true, // Set this to true to show the Plans Section
+  title: "💵 Planes",
+  subtitle: "Esto es lo que cobro por hacer cosas.",
+  plans: [
+    {
+      title: "Eventos (Java)",
+      price: "7,5€",
+      advantages: [
+        "Programación y configuración de alta calidad.",
+        "Premium & No Premium.",
+        "Soporte en el día del evento.",
+        "Posibilidad de hacer crossplaying (Java & Bedrock)."
+      ],
+      warning: "Yo solo hago la parte de la programación/configuración."
+    },
+    {
+      title: "Series (Java)",
+      price: "10€",
+      advantages: [
+        "Programación y configuración de alta calidad.",
+        "Premium & No Premium.",
+        "Soporte durante la serie.",
+        "Posibilidad de hacer crossplaying (Java & Bedrock)."
+      ],
+      warning: "Yo solo hago la parte de la programación/configuración."
+    },
+    {
+      title: "Mod/Plugin (Java)",
+      price: "5€",
+      advantages: ["Desarrollo personalizado.", "Soporte técnico."]
+    },
+    {
+      title: "Launcher (Java)",
+      price: "5€",
+      advantages: ["Actualización de launcher.", "Instancias customizadas."]
+    }
+  ]
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "¿Discutir un proyecto o simplemente quieres saludar? Mi bandeja de entrada está abierta para todos.",
-  number: "Privated",
+  number: " ",
   email_address: "contact@itzrauh.xyz"
 };
 
@@ -373,5 +413,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  plansData
 };

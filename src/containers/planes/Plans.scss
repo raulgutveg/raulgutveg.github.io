@@ -1,0 +1,87 @@
+.plans-container {
+  padding: 20px 10px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.plans-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plans-subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background-color: #141820; /* Color de fondo */
+  border-radius: 10px;
+  padding: 20px;
+  width: 22%; /* Ajusta el ancho según sea necesario */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centra el texto dentro del plan */
+  margin-bottom: 25px;
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  display: flex; /* Usar flexbox para centrar contenido dentro del plan */
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  align-items: center; /* Centra todos los elementos dentro del plan horizontalmente */
+}
+
+.price {
+  font-size: 1.25rem; /* Define el tamaño del texto del precio */
+  margin-bottom: 15px; /* Espacio debajo del precio */
+}
+
+.advantages {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.advantages li {
+  margin-bottom: 5px;
+}
+
+.warning {
+  color: rgb(181, 34, 34);
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.warning-title {
+  font-size: 1.25rem; /* Tamaño de fuente para el título de advertencia */
+  font-weight: bold; /* Negrita para darle más énfasis */
+  color: rgb(181, 34, 34); /* Color del texto para destacarlo */
+  text-align: center; /* Centra el texto */
+  text-decoration: underline; /* Subraya el texto */
+  margin: 15px 0; /* Margen superior e inferior para separación */
+}
+
+.contact-button {
+  display: flex; /* Usar flexbox para centrar contenido */
+  justify-content: center; /* Centra el botón horizontalmente */
+  margin-top: 20px; /* Espacio superior para separación */
+  width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+  box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+  .plan {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
