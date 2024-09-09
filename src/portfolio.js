@@ -345,35 +345,44 @@ const plansData = {
   plans: [
     {
       title: "Eventos (Java)",
-      price: "7,5€",
+      price: "15€",
       advantages: [
         "Programación y configuración de alta calidad.",
         "Premium & No Premium.",
         "Soporte en el día del evento.",
         "Posibilidad de hacer crossplaying (Java & Bedrock)."
       ],
-      warning: "Yo solo hago la parte de la programación/configuración."
+      warning: "Yo solo hago la parte de la programación/configuración.",
+      enable: false
     },
     {
       title: "Series (Java)",
-      price: "10€",
+      price: "20€",
       advantages: [
         "Programación y configuración de alta calidad.",
         "Premium & No Premium.",
         "Soporte durante la serie.",
         "Posibilidad de hacer crossplaying (Java & Bedrock)."
       ],
-      warning: "Yo solo hago la parte de la programación/configuración."
+      warning: "Yo solo hago la parte de la programación/configuración.",
+      enable: false
     },
-    {
-      title: "Mod/Plugin (Java)",
-      price: "5€",
-      advantages: ["Desarrollo personalizado.", "Soporte técnico."]
-    },
+    //{
+    //title: "Mod/Plugin (Java)",
+    //price: "5€",
+    //advantages: ["Desarrollo personalizado.", "Soporte técnico."]
+    //},
     {
       title: "Launcher (Java)",
-      price: "5€",
-      advantages: ["Actualización de launcher.", "Instancias customizadas."]
+      price: "7,5€",
+      advantages: [
+        "Actualización de launcher.",
+        "Instancias customizadas.",
+        "Premium & No Premium.",
+        "Discord-RPC",
+        "Customización por cada instancia"
+      ],
+      enable: true
     }
   ]
 };

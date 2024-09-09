@@ -27,8 +27,13 @@ export default function Plans() {
                   <p>{plan.warning}</p>
                 </div>
               )}
+              {/* Botón de contacto que cambia si el plan está habilitado o no */}
               <div className="price">
-                <Button text="Contactame" href="#contact" />
+                {plan.enable ? (
+                  <Button text="Comprar" href="https://ko-fi.com/itzrauh" />
+                ) : (
+                  <Button text="No disponible" className="disabled-button" />
+                )}
               </div>
             </div>
           ))}
