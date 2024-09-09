@@ -395,7 +395,7 @@ const contactInfo = {
   email_address: "contact@itzrauh.xyz"
 };
 
-// Twitter Section
+// Twitter Section si
 
 const twitterDetails = {
   userName: "itzrauh", //Replace "twitter" with your twitter username without @
