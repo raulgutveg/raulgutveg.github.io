@@ -382,6 +382,8 @@ const plansData = {
         "Discord-RPC",
         "Customización por cada instancia"
       ],
+      warning:
+        "El launcher solo dura 6 meses, cuando pasan 6 meses, si quieres volver a tener el launcher tendras que pagar.",
       enable: true
     }
   ]
