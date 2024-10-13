@@ -374,7 +374,7 @@ const plansData = {
     //},
     {
       title: "Launcher (Java)",
-      price: "7,5€",
+      price: "12,5€",
       advantages: [
         "Actualización de launcher.",
         "Instancias customizadas.",
