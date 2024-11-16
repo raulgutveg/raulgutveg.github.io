@@ -8,8 +8,7 @@
 }
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  src: local("Montserrat"), url("./assets/fonts/Montserra.ttf") format("woff");
   font-display: swap;
 }
 code {
