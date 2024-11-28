@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2de961c3.css",
-    "main.js": "/static/js/main.beb83a97.js",
+    "main.js": "/static/js/main.cf9281c2.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.0abf91d8.chunk.js": "/static/js/769.0abf91d8.chunk.js",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
@@ -23,12 +23,12 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "main.2de961c3.css.map": "/static/css/main.2de961c3.css.map",
-    "main.beb83a97.js.map": "/static/js/main.beb83a97.js.map",
+    "main.cf9281c2.js.map": "/static/js/main.cf9281c2.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.0abf91d8.chunk.js.map": "/static/js/769.0abf91d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2de961c3.css",
-    "static/js/main.beb83a97.js"
+    "static/js/main.cf9281c2.js"
   ]
 }
