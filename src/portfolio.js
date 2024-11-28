@@ -372,22 +372,6 @@ const plansData = {
     //price: "5€",
     //advantages: ["Desarrollo personalizado.", "Soporte técnico."]
     //},
-    {
-      title: "Launcher (Java)",
-      price: "17,5€",
-      advantages: [
-        "Actualización de launcher.",
-        "Instancias customizadas.",
-        "Premium & No Premium.",
-        "Discord-RPC.",
-        "Customización por cada instancia.",
-        "Música customizada para el fondo del launcher",
-        "Bot de discord customizado para añadir y eliminar usuarios de instancias."
-      ],
-      warning:
-        "El launcher solo dura 6 meses, cuando pasan 6 meses, si quieres volver a tener el launcher tendras que pagar.",
-      enable: true
-    }
   ]
 };
 
